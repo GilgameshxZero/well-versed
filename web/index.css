@@ -1,0 +1,28 @@
+@import "./css/bundle.css";
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+	color: white;
+	background-color: black;
+}
+
+body {
+	opacity: 1;
+	position: relative;
+	display: flex;
+	flex-flow: column;
+	min-width: 500px;
+	overflow: hidden;
+
+	line-height: 1.5;
+	font-size: 1rem;
+	transition: opacity 0.5s;
+}
+
+body.loading {
+	opacity: 0;
+}

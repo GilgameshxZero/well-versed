@@ -1,0 +1,51 @@
+h1 {
+	font-family: var(--font-title);
+	color: var(--accent-light-1);
+	font-size: var(--size-5);
+}
+
+h2 {
+	font-family: var(--font-title);
+	color: var(--accent-light-1);
+	font-size: var(--size-3);
+}
+
+h3 {
+	font-family: var(--font-title);
+	color: var(--accent-light-1);
+	font-size: var(--size-2);
+}
+
+a {
+	color: var(--accent-light-1);
+}
+
+p {
+	font-family: var(--font-body);
+}
+
+i {
+	font-family: var(--font-body);
+}
+
+em {
+	color: var(--accent-light-1);
+	font-style: normal;
+}
+
+button {
+	padding: var(--size--2) var(--size--1);
+	margin: auto;
+
+	color: black;
+	background-color: var(--accent-light-1);
+	border: none;
+	font-family: var(--font-title);
+	font-size: var(--size-1);
+	cursor: pointer;
+	transition: filter var(--time--3);
+}
+
+button:hover {
+	filter: brightness(130%);
+}

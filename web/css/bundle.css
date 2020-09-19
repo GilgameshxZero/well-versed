@@ -1,0 +1,5 @@
+/* Bundles all shared CSS pages. */
+
+@import "../css/colors.css";
+@import "../css/content.css";
+@import "../css/no-classes.css";

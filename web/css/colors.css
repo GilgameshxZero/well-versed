@@ -1,0 +1,11 @@
+:root,
+:host {
+	--neutral-dark-3: #1F1F1F;
+
+	--accent-light-1: #00C173;
+	--accent-dark-1: #005633;
+
+	--highlight-gold: #F8ECAD;
+	--highlight-silver: #E0E0E0;
+	--highlight-bronze: #FFE6CC;
+}
