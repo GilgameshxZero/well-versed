@@ -1,4 +1,5 @@
 import "./components/landing.js";
+import "./components/refrigerator.js";
 import "./components/word-prompt.js";
 
 window.addEventListener(`load`, () => {
