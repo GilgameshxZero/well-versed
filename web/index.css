@@ -8,6 +8,7 @@ body {
 
 	color: var(--color-dark-0);
 	background-color: var(--color-light-0);
+	font-family: var(--font-serif);
 }
 
 body {

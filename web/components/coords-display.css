@@ -1,0 +1,8 @@
+@import "../css/bundle.css";
+
+:host {
+	position: fixed;
+
+	top: 1em;
+	right: 1em;
+}
