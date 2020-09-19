@@ -1,3 +1,3 @@
 import { importWebElement } from "../js/fetch.js";
 
-importWebElement(`landing`);
+importWebElement(`word-prompt`);

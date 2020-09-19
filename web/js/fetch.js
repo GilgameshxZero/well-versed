@@ -48,7 +48,7 @@ export function importWebElement(name, CustomWebElement = class extends HTMLElem
 	const checkFOUCLoad = () => {
 		if (importWebElement.pending.css === 0 &&
 			importWebElement.pending.component === 0) {
-			console.log(`Dispatching fouc-load.`);
+			// console.log(`Dispatching fouc-load.`);
 			document.dispatchEvent(
 				new CustomEvent(`fouc-load`, {
 					bubbles: true
@@ -57,7 +57,7 @@ export function importWebElement(name, CustomWebElement = class extends HTMLElem
 	};
 
 	importWebElement.pending.component++;
-	console.log(`Pending ${JSON.stringify(importWebElement.pending)}.`);
+	// console.log(`Pending ${JSON.stringify(importWebElement.pending)}.`);
 	return new Promise(function(resolve, reject) {
 		fetch({
 			url: `./components/${name}.html`,
@@ -73,11 +73,11 @@ export function importWebElement(name, CustomWebElement = class extends HTMLElem
 					// Trigger a global event when all component CSS pages have loaded.
 					const extLinks = this.shadowRoot.querySelectorAll(`link`);
 					importWebElement.pending.css += extLinks.length;
-					console.log(`Pending ${JSON.stringify(importWebElement.pending)}.`);
+					// console.log(`Pending ${JSON.stringify(importWebElement.pending)}.`);
 					extLinks.forEach((element) => {
 						element.addEventListener(`load`, () => {
 							importWebElement.pending.css--;
-							console.log(`Pending ${JSON.stringify(importWebElement.pending)}.`);
+							// console.log(`Pending ${JSON.stringify(importWebElement.pending)}.`);
 							checkFOUCLoad();
 						});
 					});
@@ -92,7 +92,7 @@ export function importWebElement(name, CustomWebElement = class extends HTMLElem
 		});
 	}).then(() => {
 		importWebElement.pending.component--;
-		console.log(`Pending ${JSON.stringify(importWebElement.pending)}.`);
+		// console.log(`Pending ${JSON.stringify(importWebElement.pending)}.`);
 		checkFOUCLoad();
 	});
 }

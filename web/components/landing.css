@@ -1,0 +1,30 @@
+@import "../css/bundle.css";
+
+:host {
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+	background-color: var(--color-dark-0);
+}
+
+:host>div {
+	width: calc(100% - 1em);
+	height: calc(100% - 1em);
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	margin: auto;
+
+	text-align: center;
+	font-family: var(--font-serif);
+	background-color: var(--color-light-0);
+}
+
+:host>div>span[name="title"] {
+	font-size: 2em;
+}
+
+:host>div>span[name="subtitle"] {
+	font-size: 1.2em;
+}

@@ -1,10 +1,11 @@
 import "./components/landing.js";
+import "./components/word-prompt.js";
 
 window.addEventListener(`load`, () => {
 	// Load fonts synchronously.
   WebFont.load({
     google: {
-      families: [`Fjalla One`, `Open Sans`]
+      families: [`Source Serif Pro`]
     }
 	});
 });

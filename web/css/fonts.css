@@ -1,0 +1,5 @@
+:root,
+:host {
+	--font-serif: 'Source Serif Pro', serif;
+	--font-monospace: 'Consolas', monospace;
+}

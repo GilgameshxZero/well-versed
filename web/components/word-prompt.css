@@ -1,0 +1,17 @@
+@import "../css/bundle.css";
+
+:host>span {
+	position: fixed;
+	bottom: 2em;
+	left: 0;
+	right: 0;
+
+	text-align: center;
+	font-size: 1.2em;
+	color: var(--color-dark-0);
+}
+
+:host>span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -6,8 +6,8 @@ body {
 	padding: 0;
 	height: 100%;
 
-	color: white;
-	background-color: black;
+	color: var(--color-dark-0);
+	background-color: var(--color-light-0);
 }
 
 body {
