@@ -1,7 +1,7 @@
 @import "../css/bundle.css";
 
 :host {
-	position: relative;
+	position: absolute;
 }
 
 :host>span {
