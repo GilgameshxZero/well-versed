@@ -76,6 +76,11 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 	}
 
 	resetWords() {
+		console.log(this.anchor);
+		while(this.anchor.firstChild) {
+			this.anchor.removeChild(this.anchor.firstChild)
+			}
+
 		const prom1 = fetch({
 			url: `./assets/verbs.txt`,
 		});
@@ -114,13 +119,9 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 			
 	})
 
-	function removeAllChildNodes(parent) {
-		while(parent.firstChild) {
-			parent.removeChild(parent.firstChild)
-		}
-	}
+	
 
-	removeAllChildNodes(anchor);
+
 
 	}
 });
