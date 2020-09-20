@@ -14,7 +14,12 @@ window.addEventListener(`load`, () => {
 // This event is fired when all components and CSS pages have been loaded.
 window.addEventListener(`fouc-load`, () => {
 	window.addEventListener(`well-versed-landing-remove`, () => {
+		// Clicked to remove landing.
 		document.querySelector(`well-versed-refrigerator`).shadowRoot.querySelector(`:host>div`).classList.remove(`background`);
+	});
+
+	window.addEventListener(`well-versed-action-bar-complete`, () => {
+		// Finish the poem.
 	});
 
 	// No more FOUC.

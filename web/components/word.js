@@ -8,35 +8,61 @@ importWebElement(`word`, class extends HTMLElement {
 				x: 0,
 				y: 0
 			};
-
+			
 			this.dragging = false;
-			const onPointerMove = (e) => {
-				e.stopPropagation();
-				e.preventDefault();
+			const onDragMove = (clientX, clientY) => {
 				if (this.dragging === true) {
-					this.shadowRoot.host.style.left = `${this.center.x + e.clientX - this.pointerDown.x}px`;
-					this.shadowRoot.host.style.top = `${this.center.y + e.clientY - this.pointerDown.y}px`;
+					this.shadowRoot.host.style.left = `${this.center.x + clientX - this.pointerDown.x}px`;
+					this.shadowRoot.host.style.top = `${this.center.y + clientY - this.pointerDown.y}px`;
 				}
-				return 0;
 			};
-			this.shadowRoot.host.addEventListener(`pointerdown`, (e) => {
+			const onDragStart = (clientX, clientY) => {
 				this.pointerDown = {
-					x: e.clientX,
-					y: e.clientY
+					x: clientX,
+					y: clientY
 				};
-				this.shadowRoot.host.addEventListener(`pointermove`, onPointerMove, true);
-				this.shadowRoot.host.setPointerCapture(e.pointerId);
+				this.shadowRoot.host.addEventListener(`pointermove`, (e) => {
+					e.stopPropagation();
+					onDragMove(e.clientX, e.clientY);
+				});
 				this.dragging = true;
-			}, true);
-			this.shadowRoot.host.addEventListener(`pointerup`, (e) => {
-				this.dragging = false;
-				this.shadowRoot.host.releasePointerCapture(e.pointerId);
-				this.shadowRoot.host.removeEventListener(`pointermove`, onPointerMove);
-				this.center = {
-					x: this.center.x + e.clientX - this.pointerDown.x,
-					y: this.center.y + e.clientY - this.pointerDown.y
+			};
+			const onDragEnd = (clientX, clientY) => {
+				if (this.dragging === true) {
+					this.dragging = false;
+					this.shadowRoot.host.removeEventListener(`pointermove`, (e) => {
+						e.stopPropagation();
+						onDragMove(e.clientX, e.clientY);
+					});
+					this.center = {
+						x: this.center.x + clientX - this.pointerDown.x,
+						y: this.center.y + clientY - this.pointerDown.y
+					}
 				}
-			}, true);
+			};
+
+			this.shadowRoot.host.addEventListener(`pointerdown`, (e) => {
+				e.stopPropagation();
+				this.shadowRoot.host.setPointerCapture(e.pointerId);
+				onDragStart(e.clientX, e.clientY);
+			});
+			this.shadowRoot.host.addEventListener(`pointerup`, (e) => {
+				e.stopPropagation();
+				this.shadowRoot.host.releasePointerCapture(e.pointerId);
+				onDragEnd(e.clientX, e.clientY);
+			});
+			this.shadowRoot.host.addEventListener(`touchstart`, (e) => {
+				e.stopPropagation();
+				onDragStart(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+			});
+			this.shadowRoot.host.addEventListener(`touchmove`, (e) => {
+				e.stopPropagation();
+				onDragMove(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+			});
+			this.shadowRoot.host.addEventListener(`touchend`, (e) => {
+				e.stopPropagation();
+				onDragEnd(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+			});
 		});
 	}
 });

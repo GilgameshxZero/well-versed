@@ -1,0 +1,23 @@
+@import "../css/bundle.css";
+
+:host {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+
+	line-height: 2;
+}
+
+:host>div {
+	display: flex;
+	flex-flow: column;
+}
+
+:host>div>span {
+	margin-left: auto;
+	cursor: pointer;
+}
+
+:host>div>span:hover {
+	text-decoration: underline;
+}
