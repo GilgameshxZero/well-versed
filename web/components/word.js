@@ -29,12 +29,14 @@ importWebElement(`word`, class extends HTMLElement {
 			});
 			this.shadowRoot.host.addEventListener(`pointerup`, (e) => {
 				e.stopPropagation();
-				this.dragging = false;
-				this.shadowRoot.host.releasePointerCapture(e.pointerId);
-				this.shadowRoot.host.removeEventListener(`pointermove`, onPointerMove);
-				this.center = {
-					x: this.center.x + e.clientX - this.pointerDown.x,
-					y: this.center.y + e.clientY - this.pointerDown.y
+				if (this.dragging === true) {
+					this.dragging = false;
+					this.shadowRoot.host.releasePointerCapture(e.pointerId);
+					this.shadowRoot.host.removeEventListener(`pointermove`, onPointerMove);
+					this.center = {
+						x: this.center.x + e.clientX - this.pointerDown.x,
+						y: this.center.y + e.clientY - this.pointerDown.y
+					}
 				}
 			});
 		});

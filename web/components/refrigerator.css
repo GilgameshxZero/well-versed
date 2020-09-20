@@ -8,7 +8,7 @@
 	height: 100%;
 }
 
-:host>div {
+:host div[name="anchor"] {
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -19,7 +19,16 @@
 	transition: opacity 0.5s;
 }
 
-:host>div.background {
+:host .background div[name="anchor"] {
 	pointer-events: none;
 	opacity: 0.3;
+}
+
+:host well-versed-action-bar {
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+:host .background well-versed-action-bar {
+	opacity: 0;
 }

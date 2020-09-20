@@ -1,0 +1,18 @@
+@import "../css/bundle.css";
+
+:host {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+
+	line-height: 2;
+}
+
+:host>div {
+	text-align: right;
+	cursor: pointer;
+}
+
+:host>div:hover {
+	text-decoration: underline;
+}
