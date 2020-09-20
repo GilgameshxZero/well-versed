@@ -78,34 +78,18 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 	resetWords() {
 		let that = this;
 		this.anchor.style.opacity = "0";
-		setTimeout(function() {
 
+		setTimeout(function() {
 			while (that.anchor.firstChild) {
 				that.anchor.removeChild(that.anchor.firstChild)
 			}
-		}, 500);
 
-		setTimeout(function() {
-			const prom1 = fetch({
-				url: `./assets/verbs.txt`,
-			});
-			const prom2 = fetch({
-				url: `./assets/adjectives.txt`,
-			});
-			const prom3 = fetch({
-				url: `./assets/nouns.txt`,
-			});
-			const prom4 = fetch({
-				url: `./assets/adverbs.txt`,
-			});
-
-
-			Promise.all([prom1, prom2, prom3, prom4]).then(function(responses) {
+			fetch({ url: `./assets/original.txt` }).then((responses) => {
 				let i = 0;
-				while (i < 4) {
+				while (i < 1) {
 					let j = 0;
-					while (j < 4) {
-						let coolarray = responses[i].responseText.split("\n");
+					while (j < 32) {
+						let coolarray = responses.responseText.split("\n");
 						let k = Math.floor(Math.random() * coolarray.length);
 						let rand1 = window.innerWidth * (Math.random() * .85 - .45);
 						let rand2 = window.innerHeight * (Math.random() * .85 - .45);

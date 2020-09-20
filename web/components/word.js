@@ -1,5 +1,7 @@
 import { importWebElement } from "../js/fetch.js";
 
+let z = 100;
+
 importWebElement(`word`, class extends HTMLElement {
 	constructor() {
 		super();
@@ -22,6 +24,7 @@ importWebElement(`word`, class extends HTMLElement {
 					onDragMove(e.clientX, e.clientY);
 				});
 				this.dragging = true;
+				this.shadowRoot.host.style["z-index"] = z++;
 			};
 			const onDragEnd = (clientX, clientY) => {
 				if (this.dragging === true) {
