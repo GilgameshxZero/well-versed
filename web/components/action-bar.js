@@ -9,14 +9,13 @@ importWebElement(`action-bar`, class extends HTMLElement {
 				window.dispatchEvent(new CustomEvent(`well-versed-action-bar-restart`, {
 					bubbles: true
 				}));
-				console.log("hi")
 			});
-			this.shadowRoot.querySelector(`span[name="complete"]`).addEventListener(`pointerdown`, (e) => {
-				e.stopPropagation();
-				window.dispatchEvent(new CustomEvent(`well-versed-action-bar-complete`, {
-					bubbles: true
-				}));
-			});
+			// this.shadowRoot.querySelector(`span[name="complete"]`).addEventListener(`pointerdown`, (e) => {
+			// 	e.stopPropagation();
+			// 	window.dispatchEvent(new CustomEvent(`well-versed-action-bar-complete`, {
+			// 		bubbles: true
+			// 	}));
+			// });
 		});
 	}
 });

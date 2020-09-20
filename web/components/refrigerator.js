@@ -122,7 +122,7 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 					}
 					i += 1;
 				}
-				setTimeout(function() { that.anchor.style.opacity = "1"; }, 50);
+				setTimeout(function() { that.anchor.style.opacity = ""; }, 50);
 			});
 		}, 500);
 	}
