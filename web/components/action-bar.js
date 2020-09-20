@@ -6,14 +6,14 @@ importWebElement(`action-bar`, class extends HTMLElement {
 		setTimeout(() => {
 			this.shadowRoot.querySelector(`span[name="restart"]`).addEventListener(`pointerdown`, (e) => {
 				e.stopPropagation();
-				this.dispatchEvent(new CustomEvent(`well-versed-action-bar-restart`, {
+				window.dispatchEvent(new CustomEvent(`well-versed-action-bar-restart`, {
 					bubbles: true
 				}));
 				console.log("hi")
 			});
 			this.shadowRoot.querySelector(`span[name="complete"]`).addEventListener(`pointerdown`, (e) => {
 				e.stopPropagation();
-				this.dispatchEvent(new CustomEvent(`well-versed-action-bar-complete`, {
+				window.dispatchEvent(new CustomEvent(`well-versed-action-bar-complete`, {
 					bubbles: true
 				}));
 			});
