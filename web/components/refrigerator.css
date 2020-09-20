@@ -23,16 +23,3 @@
 	pointer-events: none;
 	opacity: 0.3;
 }
-
-:host>div>span[name="200,0"] {
-	position: relative;
-
-	left: 200px;
-}
-
-:host>div>span[name="-100,-100"] {
-	position: relative;
-
-	left: -100px;
-	top: -100px;
-}

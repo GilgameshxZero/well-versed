@@ -13,7 +13,7 @@ importWebElement(`landing`, class extends HTMLElement {
 				}));
 			};
 
-			window.addEventListener(`keydown`, removeLanding);
+			// window.addEventListener(`keydown`, removeLanding);
 			window.addEventListener(`mousedown`, removeLanding);
 		});
 	}
