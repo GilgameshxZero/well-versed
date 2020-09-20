@@ -67,8 +67,9 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 			});
 
 			// Listen for restart event.
-			this.shadowRoot.host.addEventListener(`well-versed-action-bar-restart`, () => {
+			window.addEventListener(`well-versed-action-bar-restart`, () => {
 				this.resetWords();
+				console.log(this.resetWords())
 			});
 			
 			// Seed with some words.
@@ -117,6 +118,14 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 		i+=1
 		}
 	})
+
+	function removeAllChildNodes(parent) {
+		while(parent.firstChild) {
+			parent.removeChild(parent.firstChild)
+		}
+	}
+
+	removeAllChildNodes(anchor);
 
 	}
 });
