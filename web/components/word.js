@@ -4,10 +4,7 @@ importWebElement(`word`, class extends HTMLElement {
 	constructor() {
 		super();
 		setTimeout(() => {
-			this.center = {
-				x: 0,
-				y: 0
-			};
+			
 			
 			this.dragging = false;
 			const onDragMove = (clientX, clientY) => {
@@ -17,6 +14,7 @@ importWebElement(`word`, class extends HTMLElement {
 				}
 			};
 			const onDragStart = (clientX, clientY) => {
+				console.log(this.center)
 				this.pointerDown = {
 					x: clientX,
 					y: clientY
@@ -65,4 +63,13 @@ importWebElement(`word`, class extends HTMLElement {
 			});
 		});
 	}
+	setCenter(x, y) {	
+		this.center = {
+			x: x,
+			y: y
+		};
+	
+		this.shadowRoot.host.style.left = `${this.center.x}px`;
+		this.shadowRoot.host.style.top = `${this.center.y}px`;
+	} 
 });

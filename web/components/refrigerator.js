@@ -14,36 +14,7 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 			this.anchor = this.shadowRoot.querySelector(`div[name="anchor"]`);
 			// this.coordsDisplay = this.shadowRoot.querySelector(`well-versed-coords-display`);
 
-			const prom1 = fetch ({
-				url:`./assets/verbs.txt`,
-			}
-			);
-			const prom2 = fetch ({
-				url:`./assets/adjectives.txt`,
-			}
-			);
-			const prom3 = fetch ({
-				url:`./assets/nouns.txt`,
-			}
-			);
-			const prom4 = fetch ({
-				url:`./assets/adverbs.txt`,
-			}
-			);
-
-			Promise.all([prom1, prom2, prom3, prom4]).then(function (responses) {
-				i = 0 
-				while (i < 4) {
-					j = 0
-					while (j < 4) {
-						k = Math.floor(Math.random() * 10000)
-						responses[i].str(" ").pop().split(" ")[k]
-						j+=1
-					}
-					
-				i+=1
-				}
-			})
+			
 
 			this.dragging = false;
 			const onDragMove = (clientX, clientY) => {
@@ -105,7 +76,47 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 		});
 	}
 
-	resetWords() {
+	resetWords() {const prom1 = fetch ({
+		url:`./assets/verbs.txt`,
+	}
+	);
+	const prom2 = fetch ({
+		url:`./assets/adjectives.txt`,
+	}
+	);
+	const prom3 = fetch ({
+		url:`./assets/nouns.txt`,
+	}
+	);
+	const prom4 = fetch ({
+		url:`./assets/adverbs.txt`,
+	}
+	);
+	let that = this
+
+	Promise.all([prom1, prom2, prom3, prom4]).then(function (responses) {
+		let i = 0 
+		while (i < 4) {
+			let j = 0
+			while (j < 4) {
+				let coolarray= responses[i].responseText.split("\n")
+				let k = Math.floor(Math.random() * coolarray.length)
+				let rand1 = window.innerWidth*(Math.random()*.9 - .4)
+				let rand2 = window.innerHeight*(Math.random()*.9 - .4)
+				let coolword = coolarray[k].trim()
+				let word = document.createElement("well-versed-word")
+				let label = document.createElement("span")
+				label.setAttribute("slot", "word")
+				word.appendChild(label)
+				label.innerText=coolword
+				that.anchor.appendChild(word)
+				word.setCenter(rand1, rand2)
+				j+=1
+			}
+			
+		i+=1
+		}
+	})
 
 	}
 });

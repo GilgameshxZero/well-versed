@@ -1,5 +1,4 @@
 'tween
-'tween-decks
 Byronically
 Christian
 Christianly
@@ -45,7 +44,6 @@ aborning
 abortively
 about
 above
-above-board
 abreast
 abroach
 abroad
@@ -97,7 +95,6 @@ acrogenously
 acromial
 acropetally
 across
-across-the-board
 acrostically
 actinally
 actinically
@@ -106,7 +103,6 @@ actively
 actually
 actuarially
 acutely
-ad-lib
 adagio
 adamantly
 adaptively
@@ -202,7 +198,6 @@ ahorse
 ahorseback
 aiblins
 aimlessly
-air-mail
 airily
 ajar
 ajee
@@ -219,10 +214,6 @@ alight
 alike
 aliunde
 all
-all-fired
-all-in
-all-out
-all-over
 allargando
 allegedly
 allegorically
@@ -402,10 +393,8 @@ aright
 aristocratically
 arithmetically
 around
-around-the-clock
 arrantly
 arrogantly
-arsy-versy
 artfully
 articulately
 artificially
@@ -452,7 +441,6 @@ asymmetrically
 asymptomatically
 asymptotically
 asynchronously
-at-home
 atheistically
 athletically
 athwart
@@ -595,7 +583,6 @@ bestially
 betimes
 better
 between
-between-decks
 betweentimes
 betweenwhiles
 betwixt
@@ -637,7 +624,6 @@ blamefully
 blamelessly
 blandly
 blankety
-blankety-blank
 blankly
 blasphemously
 blasted
@@ -696,8 +682,6 @@ brawly
 brazenly
 breadthways
 breadthwise
-breast-deep
-breast-high
 breathlessly
 breezily
 briefly
@@ -706,7 +690,6 @@ brightly
 brilliantly
 briskly
 broad
-broad-mindedly
 broadcast
 broadly
 broadside
@@ -733,7 +716,6 @@ bushily
 busily
 but
 buzzingly
-by-and-by
 cagily
 cajolingly
 calamitously
@@ -752,7 +734,6 @@ canonically
 canorously
 cantabile
 cantankerously
-cap-a-pie
 capably
 capaciously
 capitally
@@ -768,14 +749,12 @@ carnally
 carnivorously
 carousingly
 carpingly
-cash-and-carry
 casually
 casuistically
 catachrestically
 cataclysmically
 catalytically
 catastrophically
-catch-as-catch-can
 catechetically
 catechumenically
 categorically
@@ -841,10 +820,8 @@ chimerically
 chirpily
 chivalrously
 chock
-chock-a-block
 choicely
 cholerically
-chop-chop
 choppily
 chorally
 chromatically
@@ -881,7 +858,6 @@ clinically
 cliquishly
 clockwise
 close
-close-up
 closely
 closer
 closest
@@ -907,7 +883,6 @@ cohesively
 coincidentally
 coincidently
 cold
-cold-bloodedly
 coldly
 collaterally
 collect
@@ -1142,8 +1117,6 @@ crisscross
 critically
 croakily
 crookedly
-cross-country
-cross-legged
 crossly
 crosstown
 crossways
@@ -1211,7 +1184,6 @@ days
 dazedly
 dazzlingly
 dead
-dead-set
 deadly
 deafeningly
 deafly
@@ -1384,7 +1356,6 @@ direct
 directly
 direfully
 direly
-dirt-cheap
 dirtily
 disadvantageously
 disaffectedly
@@ -1494,7 +1465,6 @@ dizzily
 docilely
 doctrinally
 documentarily
-dog-cheap
 doggedly
 doggishly
 doggo
@@ -1509,11 +1479,9 @@ domestically
 dominantly
 domineeringly
 dooms
-door-to-door
 dorsally
 dotingly
 double
-double-quick
 doubly
 doubtfully
 doubtingly
@@ -1523,7 +1491,6 @@ doughtily
 dourly
 dowdily
 down
-down-the-line
 downheartedly
 downhill
 downrange
@@ -1576,7 +1543,6 @@ duskily
 dustily
 duteously
 dutifully
-duty-free
 dwarfishly
 dynamically
 dynastically
@@ -1593,7 +1559,6 @@ earthward
 earthwards
 easily
 east
-east-by-north
 easterly
 eastward
 eastwardly
@@ -1668,7 +1633,6 @@ enchantingly
 enclitically
 encomiastically
 encouragingly
-end-on
 endearingly
 endemic
 endemically
@@ -1751,7 +1715,6 @@ evanescently
 evangelically
 evasively
 even
-even-handedly
 evenings
 evenly
 evens
@@ -1767,7 +1730,6 @@ everywhere
 evidentially
 evidently
 evil
-evil-mindedly
 evilly
 evocatively
 exactingly
@@ -1875,7 +1837,6 @@ fancifully
 fantastically
 fanwise
 far
-far-forth
 farcically
 farther
 farthest
@@ -1905,7 +1866,6 @@ featly
 fecklessly
 feckly
 federally
-feeble-mindedly
 feebly
 feelingly
 feignedly
@@ -1932,7 +1892,6 @@ fiercely
 fierily
 fifth
 fifthly
-fifty-fifty
 figuratively
 filchingly
 filially
@@ -1948,9 +1907,6 @@ finitely
 firm
 firmly
 first
-first-class
-first-hand
-first-rate
 firstly
 fiscally
 fishily
@@ -1985,8 +1941,6 @@ flightily
 flimsily
 flinchingly
 flintily
-flip-flap
-flip-flop
 flippantly
 flipping
 flirtatiously
@@ -2060,7 +2014,6 @@ foully
 fourfold
 foursquare
 fourth
-fourth-class
 fourthly
 foxily
 fractionally
@@ -2078,7 +2031,6 @@ fraudfully
 fraudulently
 freakishly
 free
-free-hand
 freely
 freest
 frenetically
@@ -2114,9 +2066,6 @@ fugitively
 fulgently
 fuliginously
 full
-full-faced
-full-sail
-full-time
 fully
 fulsomely
 fumblingly
@@ -2139,7 +2088,6 @@ gaily
 gainfully
 gainly
 gallantly
-galley-west
 gallingly
 galvanically
 gamely
@@ -2226,8 +2174,6 @@ goldarn
 goldenly
 goniometrically
 good
-good-humouredly
-good-naturedly
 goofily
 gorgeously
 gorily
@@ -2304,17 +2250,8 @@ habitually
 haggardly
 haggishly
 half
-half-and-half
-half-heartedly
-half-hourly
-half-price
-half-time
-half-wittedly
-half-yearly
 halfway
 haltingly
-hand-to-hand
-hand-to-mouth
 handily
 handsomely
 haphazard
@@ -2335,14 +2272,12 @@ harmonically
 harmoniously
 harrowingly
 harshly
-harum-scarum
 hastily
 hatefully
 haughtily
 hauntingly
 hazardously
 hazily
-head-on
 headfirst
 headforemost
 headlong
@@ -2377,7 +2312,6 @@ hellishly
 helluva
 helpfully
 helplessly
-helter-skelter
 hence
 henceforth
 henceforward
@@ -2416,12 +2350,7 @@ hiddenly
 hideously
 hierarchically
 hieroglyphically
-higgledy-piggledy
 high
-high-handedly
-high-mindedly
-high-up
-higher-up
 highly
 hilariously
 hinderingly
@@ -2442,7 +2371,6 @@ hoggishly
 holily
 holistically
 hollowly
-holus-bolus
 home
 homeopathically
 homeward
@@ -2488,7 +2416,6 @@ huffily
 huffishly
 hugely
 hugeously
-hugger-mugger
 humanely
 humanly
 humblingly
@@ -2499,8 +2426,6 @@ humorously
 hundredfold
 hungrily
 hurriedly
-hurry-scurry
-hurry-skurry
 hurryingly
 hurtfully
 hurtlessly
@@ -2545,8 +2470,6 @@ ignobly
 ignominiously
 ignorantly
 ill
-ill-advisedly
-ill-naturedly
 illatively
 illaudably
 illegally
@@ -2647,8 +2570,6 @@ impulsively
 impurely
 imputably
 imputatively
-in-flight
-in-house
 inaccessibly
 inaccurately
 inactively
@@ -2881,7 +2802,6 @@ insensitively
 inseparably
 inshore
 inside
-inside-out
 insidiously
 insignificantly
 insincerely
@@ -3088,7 +3008,6 @@ jurally
 juridically
 juristically
 just
-just-in-time
 justifiably
 justly
 juttingly
@@ -3102,10 +3021,7 @@ kindly
 kinetically
 kingly
 kinkily
-kitty-cornered
 knavishly
-knee-deep
-knee-high
 knowingly
 knowledgably
 knowledgeably
@@ -3165,8 +3081,6 @@ lecherously
 leeringly
 leeward
 left
-left-handed
-left-handedly
 leftward
 leftwardly
 leftwards
@@ -3187,7 +3101,6 @@ lentissimo
 lento
 less
 lest
-let-alone
 lethally
 lethargically
 levelling
@@ -3202,13 +3115,10 @@ licht
 lichtly
 licitly
 lickerishly
-lickety-split
 lief
 lieve
 lifelessly
 light
-light-headedly
-light-heartedly
 lightly
 lightsomely
 like
@@ -3258,8 +3168,6 @@ loiteringly
 lollingly
 lonesomely
 long
-long-ago
-long-distance
 longer
 longest
 longingly
@@ -3338,7 +3246,6 @@ malevolently
 maliciously
 malignantly
 malignly
-man-to-man
 manageably
 manfully
 mangily
@@ -3513,7 +3420,6 @@ mosaically
 mosso
 most
 mostly
-mother-liquor
 motherless
 motherly
 motionlessly
@@ -3562,7 +3468,6 @@ nakedly
 namely
 narcotically
 narratively
-narrow-mindedly
 narrowly
 nary
 nasally
@@ -3618,7 +3523,6 @@ new
 newfangledly
 newly
 next
-next-door
 nicely
 niggardly
 nigh
@@ -3650,8 +3554,6 @@ none
 nonetheless
 nonsensically
 nope
-nor'-east
-nor'-west
 normally
 normatively
 north
@@ -3729,9 +3631,6 @@ oddly
 odiously
 odoriferously
 off
-off-key
-off-the-cuff
-off-the-record
 offendedly
 offensively
 offhand
@@ -3747,18 +3646,12 @@ often
 oftener
 oftentimes
 okay
-okey-doke
 ominously
 omnipotently
 omnisciently
 omnivorously
-on-the-spot
 onboard
 once
-one-handed
-one-on-one
-one-sidedly
-one-time
 onerously
 only
 onshore
@@ -3769,7 +3662,6 @@ ontogenically
 onward
 onwards
 opaquely
-open-mindedly
 openly
 operationally
 operatively
@@ -3813,10 +3705,6 @@ otherwhile
 otherwise
 ought
 out
-out-of-bounds
-out-of-date
-out-of-doors
-out-of-hand
 outboard
 outdoors
 outlandishly
@@ -3895,10 +3783,8 @@ parlando
 parliamentarily
 parlous
 parochially
-parrot-fashion
 parsimoniously
 part
-part-time
 partially
 participantly
 participially
@@ -3941,7 +3827,6 @@ pedately
 peerlessly
 peevishly
 pejoratively
-pell-mell
 pellucidly
 penally
 pendently
@@ -3987,7 +3872,6 @@ perplexedly
 perplexingly
 perseveringly
 persistently
-person-to-person
 personally
 perspectively
 perspicaciously
@@ -4054,7 +3938,6 @@ pithy
 pitiably
 pitifully
 pitilessly
-pitter-patter
 pityingly
 pivotally
 pizzicato
@@ -4091,8 +3974,6 @@ pneumatically
 poco
 poetically
 poignantly
-point-blank
-point-device
 pointedly
 pointlessly
 poisonously
@@ -4120,9 +4001,6 @@ positively
 possessively
 possibly
 post
-post-free
-post-haste
-post-paid
 postally
 posthumously
 postpositively
@@ -4141,7 +4019,6 @@ pratingly
 prayerfully
 prayerlessly
 prayingly
-pre-eminently
 precariously
 precious
 preciously
@@ -4442,7 +4319,6 @@ remorsefully
 remorselessly
 remotely
 removably
-rent-free
 reparably
 repeatedly
 repellantly
@@ -4525,8 +4401,6 @@ richly
 ridiculously
 rifely
 right
-right-about
-right-down
 righteously
 rightfully
 rightly
@@ -4559,8 +4433,6 @@ rotundly
 rough
 roughly
 round
-round-arm
-round-the-clock
 roundabout
 roundly
 rousingly
@@ -4653,7 +4525,6 @@ scoldingly
 scorching
 scorchingly
 scornfully
-scot-free
 scowlingly
 scraggily
 scrappily
@@ -4674,8 +4545,6 @@ seawards
 secantly
 secludedly
 second
-second-best
-second-class
 secondarily
 secondly
 secretively
@@ -4696,11 +4565,6 @@ seemly
 segmentally
 seldom
 selectively
-self-confidently
-self-consciously
-self-denyingly
-self-forgetfully
-self-righteously
 selfishly
 selflessly
 semantically
@@ -4779,7 +4643,6 @@ sic
 sickeningly
 sicker
 sickly
-side-saddle
 sidearm
 sideling
 sidelong
@@ -4807,10 +4670,6 @@ since
 sincerely
 sinfully
 singingly
-single-handed
-single-handedly
-single-heartedly
-single-mindedly
 singly
 singularly
 sinisterly
@@ -4831,23 +4690,19 @@ sketchily
 skilfully
 skillfully
 skimpily
-skin-deep
 skippingly
 skittishly
 skulkingly
-sky-high
 skyward
 skywards
 slack
 slackly
-slam-bang
 slanderously
 slangily
 slantingly
 slantly
 slantwise
 slap
-slap-bang
 slaughterously
 slavishly
 sleazily
@@ -4878,7 +4733,6 @@ sluttishly
 slyly
 smack
 small
-small-mindedly
 smarmily
 smart
 smartly
@@ -4914,7 +4768,6 @@ snottily
 snowily
 snubbingly
 snugly
-so-so
 soaking
 soakingly
 soapily
@@ -5116,7 +4969,6 @@ stone
 stonily
 stoopingly
 stormily
-stout-heartedly
 stoutly
 stownlins
 stragglingly
@@ -5239,7 +5091,6 @@ suppositionally
 supra
 supremely
 sure
-sure-enough
 surely
 surgically
 surlily
@@ -5349,7 +5200,6 @@ temptingly
 tenably
 tenaciously
 tendentiously
-tender-heartedly
 tenderly
 tenfold
 tensely
@@ -5421,14 +5271,12 @@ thermoscopically
 thermostatically
 thetically
 thick
-thick-wittedly
 thickly
 thievishly
 thin
 thinkingly
 thinly
 third
-third-class
 thirdly
 thirstily
 this
@@ -5478,7 +5326,6 @@ tirelessly
 tiresomely
 titillatingly
 titularly
-to-and-fro
 today
 together
 toilsomely
@@ -5489,12 +5336,10 @@ ton
 tonally
 tonelessly
 tonetically
-tongue-in-cheek
 tonight
 tonishly
 tonnishly
 too
-too-too
 toothsomely
 topically
 toploftily
@@ -5596,8 +5441,6 @@ twelvefold
 twentyfold
 twice
 twitteringly
-two-facedly
-two-times
 twofold
 typically
 typographically
@@ -5949,8 +5792,6 @@ unwomanly
 unwontedly
 unworthily
 unyieldingly
-up-and-down
-up-country
 upgrade
 uphill
 uppermost
@@ -5959,7 +5800,6 @@ upright
 uprightly
 upriver
 uproariously
-upside-down
 upsides
 upspringing
 upstage
@@ -6094,8 +5934,6 @@ vulnerably
 vyingly
 waggishly
 wailingly
-waist-deep
-waist-high
 waitingly
 wakefully
 wamblingly
@@ -6114,8 +5952,6 @@ wavily
 waxily
 way
 ways
-weak-kneedly
-weak-mindedly
 weakly
 wealthily
 wearifully
@@ -6129,8 +5965,6 @@ weekly
 weightily
 weirdly
 well
-well-nigh
-well-timed
 west
 westerly
 westward
@@ -6193,9 +6027,7 @@ wild
 wildly
 wilfully
 wilily
-will-lessly
 willingly
-willy-nilly
 windily
 windingly
 windward
@@ -6228,7 +6060,6 @@ wondrously
 woodenly
 wooingly
 woozily
-word-for-word
 wordily
 wordlessly
 worldly
@@ -6244,7 +6075,6 @@ wrathfully
 wretchedly
 writhingly
 wrong
-wrong-headedly
 wrongfully
 wrongly
 wryly
