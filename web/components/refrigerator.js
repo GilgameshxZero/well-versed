@@ -97,8 +97,8 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 				while (j < 4) {
 					let coolarray = responses[i].responseText.split("\n");
 					let k = Math.floor(Math.random() * coolarray.length);
-					let rand1 = window.innerWidth * (Math.random() * .9 - .4);
-					let rand2 = window.innerHeight * (Math.random() * .9 - .4);
+					let rand1 = window.innerWidth * (Math.random() * .95 - .5);
+					let rand2 = window.innerHeight * (Math.random() * .95 - .5);
 					let coolword = coolarray[k].trim();
 					let word = document.createElement("well-versed-word");
 					let label = document.createElement("span");
