@@ -15,6 +15,7 @@ importWebElement(`landing`, class extends HTMLElement {
 
 			// window.addEventListener(`keydown`, removeLanding);
 			window.addEventListener(`mousedown`, removeLanding);
+			window.addEventListener(`touchstart`, removeLanding);
 		});
 	}
 });

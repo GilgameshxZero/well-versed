@@ -9,10 +9,15 @@
 }
 
 :host>div {
-	text-align: right;
+	display: flex;
+	flex-flow: column;
+}
+
+:host>div>span {
+	margin-left: auto;
 	cursor: pointer;
 }
 
-:host>div:hover {
+:host>div>span:hover {
 	text-decoration: underline;
 }
