@@ -16,6 +16,7 @@ importWebElement(`word`, class extends HTMLElement {
 					x: clientX,
 					y: clientY
 				};
+				this.shadowRoot.querySelector(`:host>span`).classList.add(`dragging`);
 				this.shadowRoot.host.addEventListener(`pointermove`, (e) => {
 					e.stopPropagation();
 					onDragMove(e.clientX, e.clientY);
@@ -25,6 +26,7 @@ importWebElement(`word`, class extends HTMLElement {
 			const onDragEnd = (clientX, clientY) => {
 				if (this.dragging === true) {
 					this.dragging = false;
+					this.shadowRoot.querySelector(`:host>span`).classList.remove(`dragging`);
 					this.shadowRoot.host.removeEventListener(`pointermove`, (e) => {
 						e.stopPropagation();
 						onDragMove(e.clientX, e.clientY);

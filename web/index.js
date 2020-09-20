@@ -20,6 +20,11 @@ window.addEventListener(`fouc-load`, () => {
 
 	window.addEventListener(`well-versed-action-bar-complete`, () => {
 		// Finish the poem.
+		// html2canvas(document.querySelector(`well-versed-landing`)).then(
+		// 	(canvas) => {
+		// 		document.body.appendChild(canvas);
+		// 	}
+		// );
 	});
 
 	// No more FOUC.
