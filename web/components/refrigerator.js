@@ -66,8 +66,8 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 
 			// Listen for restart event.
 			window.addEventListener(`well-versed-action-bar-restart`, () => {
+				
 				this.resetWords();
-				console.log(this.resetWords())
 			});
 
 			// Seed with some words.
@@ -76,12 +76,16 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 	}
 
 	resetWords() {
-		console.log(this.anchor);
-		while(this.anchor.firstChild) {
-			this.anchor.removeChild(this.anchor.firstChild)
+		let that = this;
+		this.anchor.style.opacity = "0";
+		setTimeout(function() { 
+	
+		while(that.anchor.firstChild) {
+			that.anchor.removeChild(that.anchor.firstChild)
 			}
+		}, 500);
 
-		const prom1 = fetch({
+		setTimeout (function() { const prom1 = fetch({
 			url: `./assets/verbs.txt`,
 		});
 		const prom2 = fetch({
@@ -93,7 +97,7 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 		const prom4 = fetch({
 			url: `./assets/adverbs.txt`,
 		});
-		let that = this;
+		
 
 		Promise.all([prom1, prom2, prom3, prom4]).then(function(responses) {
 			let i = 0;
@@ -110,18 +114,15 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 					label.setAttribute("slot", "word");
 					word.appendChild(label);
 					label.innerText = coolword;
-					that.anchor.appendChild(word);
 					word.setCenter(rand1, rand2);
+					that.anchor.appendChild(word);
+
 					j += 1;
 				}
 				i += 1;
-			}
+				}
+			setTimeout (function () {that.anchor.style.opacity = "1";}, 50) }
+
 			
-	})
-
-	
-
-
-
-	}
+		}, 500);
 });
