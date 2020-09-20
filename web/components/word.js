@@ -12,23 +12,23 @@ importWebElement(`word`, class extends HTMLElement {
 			this.dragging = false;
 			const onPointerMove = (e) => {
 				e.stopPropagation();
-				e.preventDefault();
 				if (this.dragging === true) {
 					this.shadowRoot.host.style.left = `${this.center.x + e.clientX - this.pointerDown.x}px`;
 					this.shadowRoot.host.style.top = `${this.center.y + e.clientY - this.pointerDown.y}px`;
 				}
-				return 0;
 			};
 			this.shadowRoot.host.addEventListener(`pointerdown`, (e) => {
+				e.stopPropagation();
 				this.pointerDown = {
 					x: e.clientX,
 					y: e.clientY
 				};
-				this.shadowRoot.host.addEventListener(`pointermove`, onPointerMove, true);
+				this.shadowRoot.host.addEventListener(`pointermove`, onPointerMove);
 				this.shadowRoot.host.setPointerCapture(e.pointerId);
 				this.dragging = true;
-			}, true);
+			});
 			this.shadowRoot.host.addEventListener(`pointerup`, (e) => {
+				e.stopPropagation();
 				this.dragging = false;
 				this.shadowRoot.host.releasePointerCapture(e.pointerId);
 				this.shadowRoot.host.removeEventListener(`pointermove`, onPointerMove);
@@ -36,7 +36,7 @@ importWebElement(`word`, class extends HTMLElement {
 					x: this.center.x + e.clientX - this.pointerDown.x,
 					y: this.center.y + e.clientY - this.pointerDown.y
 				}
-			}, true);
+			});
 		});
 	}
 });

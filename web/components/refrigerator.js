@@ -27,10 +27,10 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 					x: e.clientX,
 					y: e.clientY
 				};
-				this.shadowRoot.host.addEventListener(`pointermove`, onPointerMove, true);
+				this.shadowRoot.host.addEventListener(`pointermove`, onPointerMove);
 				this.shadowRoot.host.setPointerCapture(e.pointerId);
 				this.dragging = true;
-			}, true);
+			});
 			this.shadowRoot.host.addEventListener(`pointerup`, (e) => {
 				this.dragging = false;
 				this.shadowRoot.host.releasePointerCapture(e.pointerId);
@@ -39,7 +39,7 @@ importWebElement(`refrigerator`, class extends HTMLElement {
 					x: this.center.x + e.clientX - this.pointerDown.x,
 					y: this.center.y + e.clientY - this.pointerDown.y
 				}
-			}, true);
+			});
 		});
 	}
 });
